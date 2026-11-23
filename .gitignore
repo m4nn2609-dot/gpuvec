@@ -1,0 +1,42 @@
+# Binaries
+bin/
+*.exe
+
+# Data files (large, regenerated)
+data/
+*.fvecs
+*.ivecs
+*.gz
+
+# Benchmark results (regenerated)
+results/
+*.json
+*.csv
+*.png
+*.pdf
+
+# CUDA
+*.o
+*.so
+*.a
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Go
+go.sum
+
+# Logs
+wget-log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+*.tmp
